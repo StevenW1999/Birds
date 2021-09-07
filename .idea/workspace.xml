@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638ce8af-7136-4848-a831-f280d66bb2ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/data_prep.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/data_prep.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,9 @@
       <workItem from="1630925537869" duration="7256000" />
       <workItem from="1630944857746" duration="55000" />
       <workItem from="1630944983351" duration="778000" />
-      <workItem from="1630945790360" duration="651000" />
+      <workItem from="1630945790360" duration="724000" />
+      <workItem from="1630999065336" duration="7007000" />
+      <workItem from="1631012978494" duration="2227000" />
     </task>
     <servers />
   </component>
@@ -94,6 +96,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Birds$main.coverage" NAME="main Coverage Results" MODIFIED="1630946211134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Birds$main.coverage" NAME="main Coverage Results" MODIFIED="1631013938900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
