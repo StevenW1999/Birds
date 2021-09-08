@@ -2,14 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638ce8af-7136-4848-a831-f280d66bb2ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/to_csv.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/data_prep.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/data_prep.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,9 +37,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\repo\Birds\csv " />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.to_csv">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Birds" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -53,8 +67,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="to_csv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Birds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/to_csv.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.to_csv" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -73,7 +110,26 @@
       <workItem from="1630944983351" duration="778000" />
       <workItem from="1630945790360" duration="724000" />
       <workItem from="1630999065336" duration="7007000" />
-      <workItem from="1631012978494" duration="2227000" />
+      <workItem from="1631012978494" duration="3049000" />
+      <workItem from="1631018784386" duration="449000" />
+      <workItem from="1631019631297" duration="20000" />
+      <workItem from="1631019662207" duration="286000" />
+      <workItem from="1631020201810" duration="104000" />
+      <workItem from="1631020334112" duration="742000" />
+      <workItem from="1631022563440" duration="48000" />
+      <workItem from="1631022636852" duration="73000" />
+      <workItem from="1631022756955" duration="19000" />
+      <workItem from="1631022865664" duration="1886000" />
+      <workItem from="1631025154185" duration="1437000" />
+      <workItem from="1631043582096" duration="1678000" />
+      <workItem from="1631047133464" duration="1076000" />
+      <workItem from="1631085834440" duration="1141000" />
+      <workItem from="1631087178065" duration="375000" />
+      <workItem from="1631087777475" duration="606000" />
+      <workItem from="1631088399823" duration="1162000" />
+      <workItem from="1631090428483" duration="45000" />
+      <workItem from="1631090488247" duration="1641000" />
+      <workItem from="1631099405620" duration="2171000" />
     </task>
     <servers />
   </component>
@@ -96,6 +152,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Birds$main.coverage" NAME="main Coverage Results" MODIFIED="1631013938900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Birds$to_csv.coverage" NAME="to_csv Coverage Results" MODIFIED="1631101221252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Birds$main.coverage" NAME="main Coverage Results" MODIFIED="1631019936543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
