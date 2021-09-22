@@ -131,3 +131,4 @@ dmypy.json
 *.jpg
 *.csv
 *.h5
+*.hdf5
