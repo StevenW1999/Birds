@@ -132,3 +132,7 @@ dmypy.json
 *.csv
 *.h5
 *.hdf5
+*.rar
+*.weights
+*.data-00000-of-00001
+*.index
