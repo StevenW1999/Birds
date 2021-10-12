@@ -2,11 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638ce8af-7136-4848-a831-f280d66bb2ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/weight.hdf5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/birds.rar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco.names" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/yolov3.cfg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/SGD.sav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/Untitled.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebooks/get_frames.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/transform_weights.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weights/checkpoint" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weights/yolov3_weights.tf.data-00000-of-00001" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weights/yolov3_weights.tf.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv/train_images.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/data_prep.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Training.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Training.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/prepare_data.ipynb" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Jupyter Notebook" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -40,11 +52,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\repo\Birds\config" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="S:\repo\Birds\csv " />
     </key>
@@ -160,6 +175,19 @@
       <workItem from="1632212152759" duration="741000" />
       <workItem from="1632216102221" duration="674000" />
       <workItem from="1632298751845" duration="4959000" />
+      <workItem from="1632772882175" duration="10000" />
+      <workItem from="1632836007986" duration="766000" />
+      <workItem from="1632901221770" duration="1193000" />
+      <workItem from="1632905244488" duration="612000" />
+      <workItem from="1632914010485" duration="1731000" />
+      <workItem from="1632931950538" duration="764000" />
+      <workItem from="1632988939912" duration="1842000" />
+      <workItem from="1633006564591" duration="1378000" />
+      <workItem from="1633509725605" duration="598000" />
+      <workItem from="1633606588405" duration="3373000" />
+      <workItem from="1633702466753" duration="309000" />
+      <workItem from="1633935602279" duration="1709000" />
+      <workItem from="1634040827966" duration="2636000" />
     </task>
     <servers />
   </component>
