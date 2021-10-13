@@ -136,3 +136,12 @@ dmypy.json
 *.weights
 *.data-00000-of-00001
 *.index
+*.cfg
+*.tar
+*.json
+*.pb
+*.pb
+*.names
+*.png
+*.gif
+*.avi
