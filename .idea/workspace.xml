@@ -2,23 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638ce8af-7136-4848-a831-f280d66bb2ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/birds.rar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/coco.names" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/yolov3.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/SGD.sav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/Untitled.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notebooks/get_frames.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/transform_weights.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weights/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weights/yolov3_weights.tf.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weights/yolov3_weights.tf.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yolov3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/benchmarks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/birds/Appelvink_Man/Appelvink_Man_0_frame0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/birds_data/voc2007.tar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/birds_data/voc2007_test.tar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/birds_data/voc2012.tar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/yolov4-416/keras_metadata.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/checkpoints/yolov4-416/saved_model.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/convert_trt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/backbone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/dataset.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/yolov4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/anchors/basline_anchors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/anchors/basline_tiny_anchors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/anchors/yolov3_anchors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/anchors/yolov4_anchors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/classes/coco.names" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/classes/voc.names" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/classes/yymnist.names" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dataset/val2014.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/dataset/val2017.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/helpers/custom_config.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/helpers/custom_result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/helpers/demo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/helpers/performance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/helpers/result-int8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/helpers/result.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detect.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detect_video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detections/detection1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detections/results.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/evaluate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mAP/extra/intersect-gt-and-pred.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mAP/extra/remove_space.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mAP/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/save_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/coco_annotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/coco_convert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/get_coco_dataset_2017.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/google_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/voc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/voc/get_voc2012.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/voc/voc_convert.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/voc/voc_make_names.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/voc_annotation.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/Training.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Training.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebooks/prepare_data.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/yolov3.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/transform_weights.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weights/checkpoint" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov3.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +99,7 @@
       <recent name="S:\repo\Birds\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\repo\Birds\data" />
       <recent name="S:\repo\Birds\csv " />
     </key>
   </component>
@@ -188,6 +227,10 @@
       <workItem from="1633702466753" duration="309000" />
       <workItem from="1633935602279" duration="1709000" />
       <workItem from="1634040827966" duration="2636000" />
+      <workItem from="1634044934635" duration="518000" />
+      <workItem from="1634047403960" duration="1126000" />
+      <workItem from="1634052806957" duration="622000" />
+      <workItem from="1634114731374" duration="8030000" />
     </task>
     <servers />
   </component>
