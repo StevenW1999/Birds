@@ -2,61 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="638ce8af-7136-4848-a831-f280d66bb2ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/benchmarks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/birds/Appelvink_Man/Appelvink_Man_0_frame0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/birds_data/voc2007.tar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/birds_data/voc2007_test.tar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/birds_data/voc2012.tar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/yolov4-416/keras_metadata.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/checkpoints/yolov4-416/saved_model.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/convert_trt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/backbone.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/common.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/yolov4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/anchors/basline_anchors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/anchors/basline_tiny_anchors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/anchors/yolov3_anchors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/anchors/yolov4_anchors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/classes/coco.names" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/classes/voc.names" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/classes/yymnist.names" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dataset/val2014.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/dataset/val2017.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/helpers/custom_config.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/helpers/custom_result.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/helpers/demo.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/helpers/performance.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/helpers/result-int8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/helpers/result.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detect.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detect_video.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detections/detection1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/detections/results.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/evaluate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mAP/extra/intersect-gt-and-pred.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mAP/extra/remove_space.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mAP/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/save_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/coco_annotation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/coco_convert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/get_coco_dataset_2017.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/google_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/voc/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/voc/get_voc2012.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/voc/voc_convert.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/voc/voc_make_names.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/voc_annotation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detections/detection1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detections/detection2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/label_images.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/yolov3.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/transform_weights.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weights/checkpoint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/Untitled.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/Untitled.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notebooks/extract_frames.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/notebooks/extract_frames.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +56,29 @@
       <recent name="S:\repo\Birds\csv " />
     </key>
   </component>
-  <component name="RunManager" selected="Python.to_csv">
+  <component name="RunManager" selected="Python.label_images">
+    <configuration name="label_images" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Birds" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/label_images.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Birds" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,6 +125,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.label_images" />
         <item itemvalue="Python.to_csv" />
         <item itemvalue="Python.main" />
       </list>
@@ -230,7 +206,14 @@
       <workItem from="1634044934635" duration="518000" />
       <workItem from="1634047403960" duration="1126000" />
       <workItem from="1634052806957" duration="622000" />
-      <workItem from="1634114731374" duration="8030000" />
+      <workItem from="1634114731374" duration="18484000" />
+      <workItem from="1634294505688" duration="459000" />
+      <workItem from="1634300686784" duration="2934000" />
+      <workItem from="1634721999395" duration="1320000" />
+      <workItem from="1634746281523" duration="2181000" />
+      <workItem from="1634812402645" duration="1148000" />
+      <workItem from="1634844384885" duration="4478000" />
+      <workItem from="1635079841499" duration="912000" />
     </task>
     <servers />
   </component>
@@ -254,6 +237,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Birds$to_csv.coverage" NAME="to_csv Coverage Results" MODIFIED="1631648221533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Birds$label_images.coverage" NAME="label_images Coverage Results" MODIFIED="1634144480283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Birds$main.coverage" NAME="main Coverage Results" MODIFIED="1631019936543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
